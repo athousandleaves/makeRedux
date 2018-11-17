@@ -4,4 +4,12 @@ function createStore() {
   // 2. Get state
   // 3. Listen to changes on state
   // 4. Update state
+
+  let state
+
+  const getState = () => state
+
+  return {
+    getState
+  }
 }
